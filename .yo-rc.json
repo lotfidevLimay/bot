@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "lotfi baadji"
+    },
+    "libraryName": "cockpitBot",
+    "generator-version": "4.1.0"
+  }
+}

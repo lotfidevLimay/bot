@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/ed5185f0-0b8d-4e64-b6f1-6035f66b2abf/resourceGroups/RGTestBot/providers/Microsoft.Web/sites/cockpitBotApp",
+    "appService.deploySubpath": "."
+}
