@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.14",
+  "id": "74dc1930-3455-11ee-bcd9-c3ca5f8e0a99",
+  "version": "0.0.1",
+  "packageName": "cockpitbot",
+  "developer": {
+    "name": "lotfi baadji",
+    "websiteUrl": "https://cockpitbotapp.azurewebsites.net",
+    "privacyUrl": "https://cockpitbotapp.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://cockpitbotapp.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "cockpitBot",
+    "full": "cockpitBot"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [
+    {
+      "botId": "c710d51e-24ee-464b-aa0b-a4be877bef39",
+      "needsChannelSelector": true,
+      "isNotificationOnly": false,
+      "scopes": [
+        "team",
+        "personal",
+        "groupchat"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "team",
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Help",
+              "description": "Shows help information"
+            },
+            {
+              "title": "Who am I?",
+              "description": "Shows information about your Teams user"
+            },
+            {
+              "title": "Mention me",
+              "description": "Let the bot @mention you"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "cockpitbotapp.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false
+}
